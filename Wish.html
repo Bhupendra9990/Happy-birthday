@@ -364,7 +364,7 @@
     </style>
  </head>
  <body>
-  <h1 class="game-title">💝 Chalo abhi thoda game khelogi 😅 💝</h1>
+  <h1 class="game-title">💝 Time For a wish 💝</h1>
   <div id="game-container">
    <div id="score-container">
     <div id="score">
@@ -377,7 +377,7 @@
     <p>Every letter caught is a piece of my Love..🫣. 💖</p>
     <p> Hope your day is as bright and beautiful as your smile!! 🥰</p>
     <div id="reply-container">
-     <input type="text" id="reply-input" placeholder="Kuch Chahiye to batao... ❤️">
+     <input type="text" id="reply-input" placeholder="Make a Wish....❤️">
     </div><button class="btn btn-forgive">Take my wish! 💕</button> <button class="btn btn-retry"> Need more Suprise 😍</button>
    </div>
   </div>
@@ -608,7 +608,7 @@
     
         forgiveBtn.addEventListener('click', () => {
             const reply = document.getElementById('reply-input').value;
-            alert('Happy Birthday Cutie! 💖\n' + (reply ? `Your message: ${reply}` : ''));
+            alert('Happy Birthday Cutie! 💖\n' + (reply ? `Your Wish: ${reply}` : ''));
              // ✅ Google Sheet me send karne ka part
              if (!reply) return;
              fetch("https://formspree.io/f/mqalqvjw", {
